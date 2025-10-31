@@ -10,4 +10,5 @@ function reset() {
     guestScore.textContent = 0;
 }
 
-
+window.add = add;
+window.reset = reset;
