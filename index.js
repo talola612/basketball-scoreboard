@@ -12,3 +12,5 @@ function reset() {
 
 window.add = add;
 window.reset = reset;
+window.homeScore = homeScore;
+window.guestScore = guestScore;
