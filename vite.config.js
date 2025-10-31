@@ -1,7 +1,13 @@
-import {defineConfig} from "vite"
+import { defineConfig } from "vite"
 
 export default defineConfig({
-	plugins: [
-		
-	]
++  build: {
++    rollupOptions: {
++      input: {
++        main: "./index.html"   // Vite already adds this automatically
++        // we only need to make sure the script is imported
++      }
++    }
++  },
+  plugins: []
 })
