@@ -43,6 +43,10 @@ span {
     place-content: center;
 }
 
+button:hover {
+     cursor: pointer;
+}
+
 .btn {
     margin-top: 20px;
 }
@@ -69,5 +73,4 @@ span {
 #btn-reset:hover {
     background-color: cornflowerblue;
     color: whitesmoke;
-    cursor: pointer;
 }
