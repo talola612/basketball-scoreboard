@@ -9,3 +9,6 @@ function reset() {
     homeScore.textContent = 0;
     guestScore.textContent = 0;
 }
+
+window.add = add;
+window.reset = reset;
